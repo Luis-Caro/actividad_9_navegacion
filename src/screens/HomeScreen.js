@@ -44,7 +44,7 @@ export default function HomeScreen({navigation }) {
             itemId: 8,
           });
         
-      }} title="Mostrar detalle del post 6" />
+      }} title="Mostrar detalle del post 8" />
     </SafeAreaView>
   );
 }
