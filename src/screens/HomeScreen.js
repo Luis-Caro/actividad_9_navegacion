@@ -8,7 +8,7 @@ export default function HomeScreen({navigation }) {
     try{
       const url = "https://jsonplaceholder.typicode.com/posts";
       const response = await fetch(url); //consumo di dati - consumo de datos en italiano
-      const json = await response.json(); //Converti in json - Se convierte en json
+      const json = await response.json(); //Converti in json - Se convierte en json en italiano
       setDatos(json);
     } catch (error) {
 
