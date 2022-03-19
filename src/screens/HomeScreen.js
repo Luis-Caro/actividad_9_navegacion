@@ -7,8 +7,8 @@ export default function HomeScreen({navigation }) {
   const getPosts = async() => {
     try{
       const url = "https://jsonplaceholder.typicode.com/posts";
-      const response = await fetch(url);
-      const json = await response.json(); 
+      const response = await fetch(url); //Consumoir los datos en palabras del profe
+      const json = await response.json(); //Convertir a json en palabras del profe
       setDatos(json);
     } catch (error) {
 
