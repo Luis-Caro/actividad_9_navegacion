@@ -8,8 +8,8 @@ export default function SettingsScreen({ route, navigation }) {
    const getPost = async() => {
     try{
       const url = `https://jsonplaceholder.typicode.com/posts/${itemId}`;
-      const response = await fetch(url); //Aqui se consumen los datos
-      const json = await response.json(); //Aqui se convierte a Json
+      const response = await fetch(url); //Aqui dice el profe que se consumen los datos
+      const json = await response.json(); //Aqui se convierte a Json en palabras del profe
       setPost(json);
     } catch (error) {
 
